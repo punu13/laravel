@@ -15,9 +15,9 @@
 
 //Route::resource('post', 'PostsController');
 
-Route::get('/contact', 'PostsController@contact');
-
-Route::get('post/{id}','PostsController@show_post' );
+//Route::get('/contact', 'PostsController@contact');
+//
+//Route::get('post/{id}','PostsController@show_post' );
 
 Route::get('/', function () {
     return view('welcome');
@@ -28,3 +28,12 @@ Route::get('/', function () {
 //    echo $url;
 //}));
 
+/*
+|--------------------------------------------------------------------------
+| Application Routes
+|--------------------------------------------------------------------------
+*/
+
+//Route::get('/insert', function (){
+//    DB::insert('insert into posts(title, content) values(? , ?)', ['php with laravel','Lavarel is the best thing'] );
+//});
